@@ -24,9 +24,12 @@ Each game/app is a **single self-contained HTML file** with:
 
 State is managed with plain JS variables. No frameworks, no modules, no bundler.
 
-## Git Conventions
+## Git — Required for All Changes
 
-- Commit after each meaningful change (new feature, bug fix, new file)
+**Every code change must be committed.** After completing any modification (new feature, bug fix, new file, content update), stage and commit it before finishing.
+
+- Commit after each meaningful change — do not leave uncommitted work
+- Push to remote after committing: `git push`
 - Use descriptive commit messages explaining *why*, not just *what*
 - Always include the co-author trailer:
   `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
